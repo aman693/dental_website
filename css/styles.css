@@ -1,0 +1,135 @@
+body{
+  font-family: "Montserrat";
+
+}
+/* navbar section */
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  margin: 0 20px;
+  width: 80px;
+  
+
+}
+
+
+.nav-item{
+  padding: 0 15px;
+  color: black;
+
+}
+.nav-link{
+  font-family: "Montserrat";
+  font-size: 1rem;
+  color: white;
+}
+#title{
+  background-color: #EFF5F5;
+}
+/* heading section */
+.big-heading{
+  position: absolute;
+  bottom: 30%;
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  left: 5%;
+}
+.conatiner{
+  position: relative;
+  width: 100%;
+  height: 80%;
+  padding-top: 1%;
+  opacity: 0.7;
+}
+.appointment{
+  position: absolute;
+  top: 70%;
+  left: 5%;
+}
+/* services section */
+#services{
+  margin: 7%;
+  padding-left: 6%;
+}
+h2{
+  text-align:center;
+  padding-bottom: 4rem;
+}
+.card-body{
+  margin: auto;
+  padding: 5%;
+}
+.card-text{
+  padding-top: 2rem;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: normal;
+}
+.services-images{
+  width: 5rem;
+  margin: auto;
+  opacity: 0.7;
+}
+.services-images:hover{
+  opacity: 1.5;
+}
+
+/* testimonials  section */
+
+ #testimonials{
+  background-color: #D6E4E5;
+
+}
+em{
+  color: black;
+  font-size: 1rem;
+  padding-left: 3rem;
+
+}
+.testimonials-text{
+  color: black;
+  font-size: 2rem;
+  line-height: 1.5;
+
+
+}
+.testimonials-images{
+  border-radius: 100%;
+  width: 10%;
+  padding-top: 5%;
+  margin-left: 30%;
+}
+.carousel-item{
+  padding: 8% 10%;
+
+}
+
+/* form section */
+form{
+  text-align: center;
+  padding: 7%;
+
+}
+
+/* call to action */
+#cta{
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color:  #D6E4E5 ;
+
+}
+.p{
+  font-family: "Montserrat";
+  line-height: 1.5;
+  font-size: 1rem;
+
+}
+@media screen (max-wdith:700px) {
+      .big-heading{
+        font-size: 0.5rem;
+      }
+      h2{
+
+      }
+}
